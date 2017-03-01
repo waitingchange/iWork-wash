@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ATSApplicationFontsPath</key>
+	<string>Fonts/</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>rcproject</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>project.icns</string>
+			<key>CFBundleTypeName</key>
+			<string>iMovie Project</string>
+			<key>CFBundleTypeOSTypes</key>
+			<array>
+				<string>rcpj</string>
+			</array>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>LSTypeIsPackage</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>imovieteams</string>
+			</array>
+			<key>CFBundleTypeName</key>
+			<string>iMovie Teams</string>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>LSTypeIsPackage</key>
+			<false/>
+			<key>NSPersistentStoreTypeKey</key>
+			<string>Binary</string>
+		</dict>
+	</array>
+	<key>CFBundleExecutable</key>
+	<string>iMovie</string>
+	<key>CFBundleGetInfoString</key>
+	<string>9.0, Copyright © 1999-2001, 2003-2010 Apple Inc. All rights reserved.</string>
+	<key>CFBundleHelpBookFolder</key>
+	<string>iMovie 11 Help</string>
+	<key>CFBundleHelpBookName</key>
+	<string>iMovie ’11 Help</string>
+	<key>CFBundleIconFile</key>
+	<string>APPL.icns</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.iMovieApp</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>iMovie</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>9.0</string>
+	<key>CFBundleSignature</key>
+	<string>spls</string>
+	<key>CFBundleVersion</key>
+	<string>1073</string>
+	<key>LSEnvironment</key>
+	<dict>
+		<key>DYLD_FRAMEWORK_PATH</key>
+		<string>/System/Library/PrivateFrameworks/GraphicsAppSupport.framework/Frameworks</string>
+	</dict>
+	<key>LSMinimumSystemVersion</key>
+	<string>10.5.8</string>
+	<key>LSRequiresNativeExecution</key>
+	<true/>
+	<key>NSMainNibFile</key>
+	<string>MainMenu</string>
+	<key>NSPrincipalClass</key>
+	<string>RCApplication</string>
+	<key>com.apple.PreferenceSync.ExcludeSyncKeys</key>
+	<array>
+		<string>ignoredPaths</string>
+		<string>ignoredPaths8.0</string>
+		<string>ignoredPaths8.0.1</string>
+		<string>ignoredPaths8.0.2</string>
+		<string>ignoredPaths8.0.3</string>
+		<string>ignoredPaths9.0</string>
+		<string>validPaths</string>
+		<string>validPaths7.1.1</string>
+		<string>validPaths7.1.2</string>
+		<string>validPaths7.1.4</string>
+		<string>validPaths8.0</string>
+		<string>validPaths8.0.1</string>
+		<string>validPaths8.0.2</string>
+		<string>validPaths8.0.3</string>
+		<string>validPaths9.0</string>
+		<string>workspaceSettings</string>
+	</array>
+</dict>
+</plist>
